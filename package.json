@@ -1,0 +1,28 @@
+{
+  "name": "libra",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "quagga": "^0.12.1",
+    "sql.js": "^1.10.2",
+    "sqlite3": "^5.1.7",
+    "tauri-plugin-sql-api": "github:tauri-apps/tauri-plugin-sql#v1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.9",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.1"
+  }
+}
